@@ -1,0 +1,18 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Sólo Java App</string>
+
+    <!-- Header text fir the list of UI [CHAR LIMIT=20] -->
+    <string name="name">Nombre</string>
+    <string name="enter_name_here">Introduzca nombre aquí</string>
+    <string name="toppings">Ingredientes</string>
+    <string name="add">Agregue</string>
+    <string name="whipped_cream">Crema batida</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="order_summary_name">Nombre: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="quantity">Cantidad</string>
+    <string name="order">Ordenar</string>
+    <string name="total">Total</string>
+    <string name="thank_you">¡Gracias!</string>
+    <string name="order_summary_email_subject">Sólo java para <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+</resources>
