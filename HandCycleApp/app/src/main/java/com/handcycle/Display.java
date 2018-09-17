@@ -1,7 +1,6 @@
-package king.upihc;
+package com.handcycle;
 
 // Import Android API
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -11,27 +10,14 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
-import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.Toast;
-import android.support.v4.app.FragmentActivity;
-import android.view.LayoutInflater;
-import android.view.ViewGroup;
 
 // Import Firebase API
-import com.google.android.gms.auth.api.Auth;
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.crash.FirebaseCrash;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -50,12 +36,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Objects;
 import java.util.UUID;
 
 /**
@@ -92,17 +73,12 @@ public class Display extends YouTubeBaseActivity implements YouTubePlayer.OnInit
 
     // Youtube
     public static final String api_key = "AIzaSyCnAQhYgNJr64s2IvVrLGX72pClRN7smF0";
-//    public static final String video_id = "T5-8rkMVdCs";             // Mr Bean Cartoon
-//    public static final String video_id = "k8_xSG2saCk";             // Pokemon Origins
-    public static final String video_id = "MgRgiHyVGgw";           // Doraemon
+    public static final String video_id = "2KfvxE7iQO8";           // Doraemon
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display);
-//        Firebase.setAndroidContext(this);
-
-//        final Firebase myFirebaseRef = new Firebase("https://telemedicine-42de1.firebaseio.com/");
 
         DatabaseRehabilitationDetails = FirebaseDatabase.getInstance().getReference();
 
@@ -121,7 +97,6 @@ public class Display extends YouTubeBaseActivity implements YouTubePlayer.OnInit
                 for(DataSnapshot child: dataSnapshot.getChildren()){
                     UserPushID = child.getKey();
                     Log.d("Key", UserPushID);
-//                Log.d("Key2", DataPushID);
                 }
             }
 
@@ -192,8 +167,6 @@ public class Display extends YouTubeBaseActivity implements YouTubePlayer.OnInit
 
         if (!wasRestored) {
             youTubePlayer.cueVideo(video_id);
-//            youTubePlayer.cueVideo(video_id2);
-//            youTubePlayer.cueVideo(video_id3);
         }
 
     }
@@ -638,6 +611,7 @@ public class Display extends YouTubeBaseActivity implements YouTubePlayer.OnInit
         }
         return  device.createRfcommSocketToServiceRecord(MY_UUID);
     }
+
     @Override
     public void onResume() {
         super.onResume();
@@ -692,6 +666,7 @@ public class Display extends YouTubeBaseActivity implements YouTubePlayer.OnInit
         mConnectedThread = new ConnectedThread(btSocket);
         mConnectedThread.start();
     }
+
     @Override
     public void onPause() {
         super.onPause();
@@ -711,6 +686,7 @@ public class Display extends YouTubeBaseActivity implements YouTubePlayer.OnInit
             errorExit("Fatal Error", "In onPause() and failed to close socket." + e2.getMessage() + ".");
         }
     }
+
     private void checkBTState() {
         // Check for Bluetooth support and then check to make sure it is turned on
         // Emulator doesn't support Bluetooth and will return null
@@ -729,6 +705,7 @@ public class Display extends YouTubeBaseActivity implements YouTubePlayer.OnInit
             }
         }
     }
+
     private void errorExit(String title, String message){
         Toast.makeText(getBaseContext(), title + " - " + message, Toast.LENGTH_SHORT).show();
         finish();
@@ -750,12 +727,10 @@ public class Display extends YouTubeBaseActivity implements YouTubePlayer.OnInit
         }
     }
     private class ConnectedThread extends Thread {
-        //        private final BluetoothSocket mmSocket;
         private final InputStream mmInStream;
         private final OutputStream mmOutStream;
 
         public ConnectedThread(BluetoothSocket socket) {
-//            mmSocket = socket;
             InputStream tmpIn = null;
             OutputStream tmpOut = null;
 

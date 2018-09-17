@@ -11,18 +11,12 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:text="Welcome to UPIHC System!"
+            android:text="Welcome to Hand Cycle System!"
             android:textSize="25pt"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:layout_height="wrap_content" />
-
-        <!--<android.support.v7.widget.CardView-->
-            <!--android:id="@+id/video1"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="200dp"-->
-            <!--android:layout_margin="10dp"/>-->
 
         <com.google.android.youtube.player.YouTubePlayerView
             android:id="@+id/player"
@@ -30,12 +24,6 @@
             android:layout_width="1000dp"
             android:layout_height="500dp">
         </com.google.android.youtube.player.YouTubePlayerView>
-
-        <!--<com.google.android.youtube.player.YouTubePlayerView-->
-            <!--android:id="@+id/player"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content">-->
-        <!--</com.google.android.youtube.player.YouTubePlayerView>-->
 
         <Button
             android:id="@+id/bSystemStart"

@@ -11,7 +11,7 @@ Tested on Android 4.X tablet.
 ## Built With
 
 * [Android Studio 2.1.2](https://developer.android.com/studio/) (1.0.1 - 1.0.3_MS)
-* [Android Studio 3.1.3](https://developer.android.com/studio/) (1.0.4)
+* [Android Studio 3.1.3](https://developer.android.com/studio/) (1.0.4 - 1.0.5)
 
 ## Versioning
 
