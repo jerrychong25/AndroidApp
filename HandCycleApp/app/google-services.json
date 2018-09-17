@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "120584880897",
+    "firebase_url": "https://telemedicine-42de1.firebaseio.com",
+    "project_id": "telemedicine-42de1",
+    "storage_bucket": "telemedicine-42de1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120584880897:android:191d553376b86b0e",
+        "android_client_info": {
+          "package_name": "king.upihc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120584880897-vj1oftcekcd2em8jgc11fdbhknhujvh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "king.upihc",
+            "certificate_hash": "5c96d748e51deac92f8e315a410726ade8a6b1a0"
+          }
+        },
+        {
+          "client_id": "120584880897-6uhr68skpfcojpp323254teafgbr3nqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL9O2vg2uRNInYABY0yHjBxhZ1FV37v0c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120584880897-6uhr68skpfcojpp323254teafgbr3nqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
