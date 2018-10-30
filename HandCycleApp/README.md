@@ -1,4 +1,4 @@
-# Hand Cycle Android
+# Hand Cycle App
 
 ## Getting Started
 
