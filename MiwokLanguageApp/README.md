@@ -1,8 +1,6 @@
 # Miwok App
 
 <p align="center">
-  <img src="ScreenShotHome.png" alt="Miwok Language Screenshot Home"
-       width="300" height="533">
   <img src="ScreenShotNumbers.png" alt="Miwok Language Screenshot Numbers"
        width="300" height="533">
   <img src="ScreenShotFamilyMembers.png" alt="Miwok Language Screenshot Family Members"
