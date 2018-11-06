@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "3784896635",
+    "firebase_url": "https://usekuriti.firebaseio.com",
+    "project_id": "usekuriti",
+    "storage_bucket": "usekuriti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3784896635:android:f99b701815059a51",
+        "android_client_info": {
+          "package_name": "com.example.android.miwok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3784896635-3n2h1g3aaiobjd1u1k54j6qbntt32pgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArAsBzwnAUrTuqM6VeUDlFRal6mx8pr0Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
