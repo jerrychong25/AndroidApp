@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+// Firebase
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.1"
+
+    defaultConfig {
+        applicationId "king.upihc"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0.4"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { res.srcDirs = ['src/main/res', 'src/main/res/menu'] } }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+    implementation 'com.android.support:appcompat-v7:23.4.0'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.volley:volley:1.0.0'
+    implementation 'com.android.support:design:23.4.0'
+    implementation 'com.android.support:support-v4:23.4.0'
+    implementation 'com.android.support:cardview-v7:23.3.+'
+
+    // Firebase
+    implementation 'com.google.firebase:firebase-core:16.0.1'              // Firebase Analytics
+    implementation 'com.google.firebase:firebase-database:16.0.1'          // Firebase Realtime Database
+    implementation 'com.google.firebase:firebase-storage:16.0.1'           // Firebase Storage
+    implementation 'com.google.firebase:firebase-crash:16.0.1'             // Firebase Crash Reporting
+    implementation 'com.google.firebase:firebase-auth:16.0.2'              // Firebase Authentication
+//    implementation 'com.google.android.gms:play-services-auth:10.2.1'      // Firebase Authentication Google Service
+    implementation 'com.google.firebase:firebase-messaging:17.1.0'         // Firebase Cloud Messaging and Notifications
+//    implementation 'com.google.firebase:firebase-config:16.0.0'            // Firebase Remote Config
+//    implementation 'com.google.firebase:firebase-invites:16.0.1'           // Firebase Invites and Dynamic Links
+//    implementation 'com.google.firebase:firebase-ads:15.0.1'               // Firebase AdMob
+//    implementation 'com.google.firebase:firebase-appindexing:16.0.1'       // Firebase App Indexing
+}
