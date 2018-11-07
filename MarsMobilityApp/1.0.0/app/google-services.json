@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "212505450459",
+    "firebase_url": "https://marsmobilityapp.firebaseio.com",
+    "project_id": "marsmobilityapp",
+    "storage_bucket": "marsmobilityapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212505450459:android:2873ec1a7df5e87d",
+        "android_client_info": {
+          "package_name": "my.com.codeplay.training.marsmobilityapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212505450459-oep9dpvsi4q0c9f08tfk2js56dcam57q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlUj_gm46Zy9wXwPM9eRxn-CFfXVHatt8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

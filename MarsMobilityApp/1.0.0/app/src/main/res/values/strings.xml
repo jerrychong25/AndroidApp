@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mars Mobility App</string>
+    <string name="action_settings">Settings</string>
+    <string name="searching">Searching....</string>
+</resources>
