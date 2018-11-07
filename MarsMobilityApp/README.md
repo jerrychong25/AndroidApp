@@ -1,17 +1,17 @@
 # Mars Mobility App
 
 <p align="center">
-  <img src="1.0.0/ScreenShotHome.png" alt="Mars Mobility Screenshot Home"
+  <img src="ScreenShotHome.png" alt="Mars Mobility Screenshot Home"
        width="300" height="533">
-  <img src="1.0.0/ScreenShotDevice.png" alt="Mars Mobility Screenshot Device"
+  <img src="ScreenShotDevice.png" alt="Mars Mobility Screenshot Device"
        width="300" height="533">
 </p>
 <p align="center">
-  <img src="1.0.0/ScreenShotNormal.png" alt="Mars Mobility Screenshot Normal Weather"
+  <img src="ScreenShotNormal.png" alt="Mars Mobility Screenshot Normal Weather"
        width="533" height="300">
 </p>
 <p align="center">
-  <img src="1.0.0/ScreenShotHazard.png" alt="Mars Mobility Screenshot Hazard Weather"
+  <img src="ScreenShotHazard.png" alt="Mars Mobility Screenshot Hazard Weather"
        width="533" height="300">
 </p>
 
