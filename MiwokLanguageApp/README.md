@@ -1,4 +1,4 @@
-# Miwok App
+# Miwok Language App
 
 <p align="center">
   <img src="ScreenShotNumbers.png" alt="Miwok Language Screenshot Numbers"
