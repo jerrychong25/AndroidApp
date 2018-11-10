@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+// Firebase
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "com.handcycle"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 2
+        versionName "1.0.6"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { res.srcDirs = ['src/main/res', 'src/main/res/menu'] } }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+    implementation 'com.android.support:appcompat-v7:23.4.0'
+    testImplementation 'junit:junit:4.12'
+//    implementation 'com.android.volley:volley:1.0.0'
+    implementation 'com.android.support:design:23.4.0'
+    implementation 'com.android.support:support-v4:23.4.0'
+    implementation 'com.android.support:cardview-v7:23.3.+'
+
+    // Firebase
+    implementation 'com.google.firebase:firebase-core:16.0.3'              // Firebase Analytics
+    implementation 'com.google.firebase:firebase-database:16.0.1'          // Firebase Realtime Database
+    implementation 'com.google.firebase:firebase-storage:16.0.1'           // Firebase Storage
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.5'         // Firebase Crashlytics
+    implementation 'com.google.firebase:firebase-auth:16.0.3'              // Firebase Authentication
+    implementation 'com.google.firebase:firebase-messaging:17.3.0'         // Firebase Cloud Messaging and Notifications
+}
+
+apply plugin: 'com.google.gms.google-services'
