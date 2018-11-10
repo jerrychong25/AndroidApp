@@ -1,5 +1,12 @@
 # Score Keeper App
 
+<p align="center">
+  <img src="ScreenShotIdle.png" alt="Court Counter Screenshot Idle"
+       width="300" height="533">
+  <img src="ScreenShotResults.png" alt="Court Counter Screenshot Results"
+       width="300" height="533">
+</p>
+
 ## Getting Started
 
 This is a mobile app that count number of goals and fouls for two football teams, which developed during [Udacity's Android Basics: User Input
