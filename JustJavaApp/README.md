@@ -1,5 +1,16 @@
 # Just Java App
 
+<p align="center">
+  <img src="ScreenShotIdle.png" alt="Just Java Screenshot Idle"
+       width="300" height="533">
+  <img src="ScreenShotOrder.png" alt="Just Java Screenshot Order"
+       width="300" height="533">
+  <img src="ScreenShotShare.png" alt="Just Java Screenshot Share"
+       width="300" height="533">
+  <img src="ScreenShotEmail.png" alt="Just Java Screenshot Email"
+       width="300" height="533">
+</p>
+
 ## Getting Started
 
 This is a mobile app that order coffees with topping selection, which developed during [Udacity's Android Basics: User Input
