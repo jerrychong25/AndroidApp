@@ -1,5 +1,12 @@
 # Cookies App
 
+<p align="center">
+  <img src="ScreenShotHungry.png" alt="Cookies Screenshot Hungry"
+       width="300" height="533">
+  <img src="ScreenShotFull.png" alt="Cookies Screenshot Full"
+       width="300" height="533">
+</p>
+
 ## Getting Started
 
 This is a mobile app that display cookies image, which developed during [Udacity's Android Basics: User Input
