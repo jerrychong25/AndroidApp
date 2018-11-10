@@ -1,5 +1,10 @@
 # Menu App
 
+<p align="center">
+  <img src="ScreenShot.png" alt="Menu Screenshot"
+       width="300" height="533">
+</p>
+
 ## Getting Started
 
 This is a mobile app that test print menu name into Android Studio logs, which developed during [Udacity's Android Basics: User Input
