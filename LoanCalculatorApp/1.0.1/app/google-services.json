@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "282919560908",
+    "firebase_url": "https://loancalculator-39c65.firebaseio.com",
+    "project_id": "loancalculator-39c65",
+    "storage_bucket": "loancalculator-39c65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282919560908:android:554a5f2e573a31b7",
+        "android_client_info": {
+          "package_name": "my.com.codeplay.loancalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282919560908-qmusqv7807grfrr2r85ghkh6j744snfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7rECHrpiDx95TJjJlWPITi3MtDtdXynE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

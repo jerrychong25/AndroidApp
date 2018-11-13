@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Loan Calculator</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="down_payment">Down Payment</string>
+    <string name="term">Term</string>
+    <string name="year">Year(s)</string>
+    <string name="annual_interest_rate">Annual Interest Rate</string>
+    <string name="sym_percent">%</string>
+    <string name="monthly_repayment">Monthly Repayment</string>
+    <string name="total_repayment">Total Repayment</string>
+    <string name="total_interest">Total Interest</string>
+    <string name="average_monthly_interest">Average Monthly Interest</string>
+    <string name="sym_double_column">:</string>
+    <string name="default_result">0.00</string>
+    <string name="calculate">Calculate</string>
+    <string name="reset">Reset</string>
+    <string name="history">History</string>
+</resources>
