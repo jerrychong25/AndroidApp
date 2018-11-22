@@ -1,27 +1,17 @@
-# Pets App
-
-<p align="center">
-  <img src="ScreenShotHome.png" alt="Pets Screenshot Home"
-       width="300" height="533">
-  <img src="ScreenShotAdded.png" alt="Pets Screenshot Added"
-       width="300" height="533">
-  <img src="ScreenShotAddPet.png" alt="Pets Screenshot Add Pet"
-       width="300" height="533">
-  <img src="ScreenShotEditPet.png" alt="Pets Screenshot Edit Pet"
-       width="300" height="533">
-</p>
+# Hand Cycle Android
 
 ## Getting Started
 
-This mobile app displays a list of pets and their related data that the user inputs, which developed during [Udacity's Android Basics: Data Storage Course](https://www.udacity.com/course/android-basics-data-storage--ud845).
+This is a mobile app developed for project name "[Development of low cost upper and lower extremities rehabilitation system with interactive feedback for children with movement disorders](https://ieeexplore.ieee.org/document/7843556/)", which capable of communicating with [Firebase](https://firebase.google.com/) host and [Arduino](https://www.arduino.cc/) board via Bluetooth communication. This project is developed altogether with a website (Repository: [HandCycleWeb](https://github.com/jerrychong25/HandCycleWeb)).
 
 ## Deployment
 
-Tested on Android 6.0 mobile phone.
+Tested on Android 4.X tablet.
 
 ## Built With
 
-[Android Studio 3.1.3](https://developer.android.com/studio/) 
+* [Android Studio 2.1.2](https://developer.android.com/studio/) (1.0.1 - 1.0.3_MS)
+* [Android Studio 3.1.3](https://developer.android.com/studio/) (1.0.4 - 1.0.5)
 
 ## Versioning
 
@@ -33,4 +23,4 @@ Tested on Android 6.0 mobile phone.
 
 ## License
 
-This project base code is originally provided by Udacity's Android Basics: Data Storage Course Leads Katherine Kuan and Jessica Lin.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
