@@ -14,6 +14,7 @@ Here is the full list of developed Android Apps as of 11th November 2018:
 * MenuApp
 * MiwokLanguageApp
 * MusicPlayerApp
+* PetsApp
 * ScoreKeeperApp
 * USekuritiApp
 * ViewPagerApp
