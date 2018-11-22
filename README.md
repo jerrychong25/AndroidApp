@@ -16,6 +16,7 @@ Here is the full list of developed Android Apps as of 11th November 2018:
 * MusicPlayerApp
 * PetsApp
 * ScoreKeeperApp
+* SoonamiApp
 * USekuritiApp
 * ViewPagerApp
 * WeatherApp
