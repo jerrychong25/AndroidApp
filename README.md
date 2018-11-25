@@ -17,6 +17,7 @@ Here is the full list of developed Android Apps as of 11th November 2018:
 * PetsApp
 * QuakeReportApp
 * ScoreKeeperApp
+* SoonamiApp
 * USekuritiApp
 * ViewPagerApp
 * WeatherApp
