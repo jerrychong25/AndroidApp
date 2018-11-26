@@ -3,7 +3,8 @@
 ## Summary
 
 Here is the full list of developed mobile apps as of 25th November 2018:
-1) Android Apps
+
+### Android Apps
 * BirthdayCardApp
 * CookiesApp
 * CourtCounterApp
@@ -22,7 +23,8 @@ Here is the full list of developed mobile apps as of 25th November 2018:
 * USekuritiApp
 * ViewPagerApp
 * WeatherApp
-2) React Native Apps
+
+### React Native Apps
 * ReportSimplifyApp
 
 ## Authors
