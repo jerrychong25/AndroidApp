@@ -7,7 +7,7 @@
 
 ## Getting Started
 
-This mobile app display the perceived strength of a single earthquake event based on the DYFI indicator., which developed during [Udacity's Android Basics: Networking Course](https://www.udacity.com/course/android-basics-networking--ud843).
+This mobile app display the perceived strength of a single earthquake event based on the DYFI indicator, which developed during [Udacity's Android Basics: Networking Course](https://www.udacity.com/course/android-basics-networking--ud843).
 
 The earthquake data is retrieved from [USGS service website](https://earthquake.usgs.gov/fdsnws/event/1/).
 
