@@ -8,6 +8,7 @@ Here is the full list of developed mobile apps as of 25th November 2018:
 * BirthdayCardApp
 * CookiesApp
 * CourtCounterApp
+* DidYouFeelItApp
 * FriendlyChatApp
 * HandCycleApp
 * JustJavaApp
