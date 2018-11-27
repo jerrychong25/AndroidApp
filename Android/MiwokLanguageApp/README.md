@@ -21,7 +21,8 @@ Tested on Android 6.0 mobile phone.
 
 ## Built With
 
-[Android Studio 3.1.3](https://developer.android.com/studio/) 
+* [Android Studio 3.1.3](https://developer.android.com/studio/) (1.0.0 - 1.0.1)
+* [Android Studio 3.1.4](https://developer.android.com/studio/) (1.0.2 - 1.0.3)
 
 ## Versioning
 

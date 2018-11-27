@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "274722068261",
+    "firebase_url": "https://miwoklanguage-cf599.firebaseio.com",
+    "project_id": "miwoklanguage-cf599",
+    "storage_bucket": "miwoklanguage-cf599.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274722068261:android:2f78a9116275b6f0",
+        "android_client_info": {
+          "package_name": "com.jerrychong.miwok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274722068261-ra1ir0svf6fv6lp0ai04b9p88e9p32l4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB4YTGa7WKxHZabw_aH-L-3bc6IO8ToFM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
