@@ -1,4 +1,4 @@
-package com.example.android.quakereport;
+package com.jerrychong.quakereport;
 
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;

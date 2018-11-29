@@ -1,4 +1,4 @@
-package com.example.android.quakereport;
+package com.jerrychong.quakereport;
 
 import android.os.AsyncTask;
 import android.text.TextUtils;
@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import static com.example.android.quakereport.EarthquakeActivity.LOG_TAG;
+import static com.jerrychong.quakereport.EarthquakeActivity.LOG_TAG;
 
 /**
  * Helper methods related to requesting and receiving earthquake data from USGS.

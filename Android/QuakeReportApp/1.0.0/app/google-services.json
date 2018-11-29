@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "153159249694",
+    "firebase_url": "https://quakereport-236f9.firebaseio.com",
+    "project_id": "quakereport-236f9",
+    "storage_bucket": "quakereport-236f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153159249694:android:e49f1d35001bdd4e",
+        "android_client_info": {
+          "package_name": "com.jerrychong.quakereport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153159249694-qhp8ltg7et5rrq5289u5spo8o7sbta0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJQEnQrHn1Dcq4h6QrBMhVOpmaYLT74Wk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

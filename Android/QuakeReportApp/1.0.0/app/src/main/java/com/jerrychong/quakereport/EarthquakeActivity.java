@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.quakereport;
+package com.jerrychong.quakereport;
 
 import android.content.Context;
 import android.content.Intent;

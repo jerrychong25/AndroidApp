@@ -1,4 +1,4 @@
-package com.example.android.quakereport;
+package com.jerrychong.quakereport;
 
 public class Earthquake {
 

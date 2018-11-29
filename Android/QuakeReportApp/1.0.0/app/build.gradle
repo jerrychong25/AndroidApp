@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        applicationId "com.example.android.quakereport"
+        applicationId "com.jerrychong.quakereport"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
@@ -22,4 +22,8 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
     implementation 'com.android.support:appcompat-v7:23.3.0'
+    // Firebase
+    implementation 'com.google.firebase:firebase-core:16.0.1'
 }
+
+apply plugin: 'com.google.gms.google-services'

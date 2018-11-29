@@ -1,4 +1,4 @@
-package com.example.android.quakereport;
+package com.jerrychong.quakereport;
 
 import android.content.AsyncTaskLoader;
 import android.content.Context;
