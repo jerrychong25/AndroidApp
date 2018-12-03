@@ -2,7 +2,9 @@ import React from "react";
 import { Image } from "react-native";
 import { Container, Content, Text, List, ListItem } from "native-base";
 
-const routes = ["Home", "Chat", "Profile"];
+// Routes is text display on SideBar
+// const routes = ["Home", "Login", "Chat", "Profile"];
+const routes = ["Login"];
 
 export default class SideBar extends React.Component {
   render() {

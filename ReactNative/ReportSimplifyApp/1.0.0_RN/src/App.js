@@ -10,14 +10,12 @@ import React, { Component } from 'react';
 import firebase from 'react-native-firebase';
 import Navigation from "./Navigation.js";
 
-// Import components to display on screen
-// import Login from './src/Login.js'
-
 export default class App extends React.Component {
 
   constructor() {
     super();
     // this.authSubscription = null;
+
     this.state = {
       loading: false,
     };
@@ -27,12 +25,14 @@ export default class App extends React.Component {
    * Listen for any auth state changes and update component state
    */
   componentDidMount() {
-    this.authSubscription = firebase.auth().onAuthStateChanged((user) => {
-      this.setState({ 
-        loading: false,
-        user,
-      });
-    });
+    // this.authSubscription = firebase.auth().onAuthStateChanged((user) => {
+    //   this.setState({ 
+    //     loading: false,
+    //     user,
+    //   });
+    // });
+
+    // Need To Check On Above Codes!!!!!!!!!!!!!!!!!!!
   }
 
     /**
@@ -43,13 +43,16 @@ export default class App extends React.Component {
   }
 
   render() {
-    // Check if still loading
-    if (this.state.loading) {
-      return null;
-    }
+    
+    // // Check if still loading
+    // if (this.state.loading) {
+    //   console.debug("App.js - Loading");
+    //   return null;
+    // }
 
     // Chech if user is logined
     if (!this.state.user) {
+      console.debug("App.js - User Loggin In");
       return <Navigation />;      // Login
     }
   }
