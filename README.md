@@ -25,6 +25,9 @@ Here is the full list of developed mobile apps as of 25th November 2018:
 * ViewPagerApp
 * WeatherApp
 
+### NativeScript
+* GroceryApp
+
 ### React Native
 * ReportSimplifyApp
 
@@ -32,9 +35,6 @@ Here is the full list of developed mobile apps as of 25th November 2018:
 * Coming soon!
 
 ### iOS Native
-* Coming soon!
-
-### NativeScript
 * Coming soon!
 
 ## Authors
