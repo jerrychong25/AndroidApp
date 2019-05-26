@@ -6,6 +6,7 @@ Here is the full list of developed mobile apps as of 25th November 2018:
 
 ### Android Native
 * BirthdayCardApp
+* ChromeCustomTabsApp
 * CookiesApp
 * CourtCounterApp
 * DidYouFeelItApp
@@ -30,9 +31,10 @@ Here is the full list of developed mobile apps as of 25th November 2018:
 
 ### React Native
 * ReportSimplifyApp
+* RNHybridTestApp
 
 ### Ionic
-* Coming soon!
+* IonicTestApp
 
 ### iOS Native
 * Coming soon!
