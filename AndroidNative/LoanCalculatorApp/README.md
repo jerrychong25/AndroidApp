@@ -9,7 +9,7 @@
 
 ## Getting Started
 
-This is a loan calculator mobile app that calculate Monthly Repayment, Total Repayment, Total Interest and Average Monthly Interest based on input of Loan Amount, Down Payment, Term & Annual Interest Rate, which developed during [InfoTrek's Android Development Course](https://www.info-trek.com/details/Android-Development/4776).
+This is a loan calculator mobile app that calculate Monthly Repayment, Total Repayment, Total Interest and Average Monthly Interest based on user input of Loan Amount, Down Payment, Term & Annual Interest Rate, which developed during [InfoTrek's Android Development Course](https://www.info-trek.com/details/Android-Development/4776).
 
 
 ## Deployment
