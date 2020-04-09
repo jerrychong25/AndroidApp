@@ -37,6 +37,7 @@ Here is the full list of developed mobile apps as of 25th November 2018:
 * IonicTestApp
 
 ### iOS Native
+* iOSLoginApp
 * iOSWebViewApp
 
 ## Authors
